@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-electron-quick-start",
+  "version": "0.0.0",
+  "author": "草鞋没号 <308487730@qq.com>",
+  "license": "MIT",
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build --prerender && electron-builder",
+    "elec": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^28.1.4",
+    "nuxt": "^3.8.2",
+    "nuxt-electron": "^0.7.0",
+    "vite-plugin-electron": "^0.15.6",
+    "vite-plugin-electron-renderer": "^0.14.5"
+  },
+  "dependencies": {
+    "@develar/schema-utils": "^2.6.5",
+    "@tootallnate/once": "^3.0.0"
+  }
+}

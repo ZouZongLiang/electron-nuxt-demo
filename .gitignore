@@ -1,0 +1,6 @@
+.output
+dist-electron
+release
+node_modules
+.nuxt
+dist
